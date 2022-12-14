@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.vexely.com/</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/conditions</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/privacy</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/google-sheets-automation</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/why-should-I-automate-my-work</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/workflow-automations-with-python</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/what-is-business-process-automation</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/what-is-robotic-process-automation</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vexely.com/articles/is-it-worth-automating-tasks</loc>
+  <lastmod>2022-12-11T18:26:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
