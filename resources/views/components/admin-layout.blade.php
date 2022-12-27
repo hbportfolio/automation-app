@@ -122,7 +122,6 @@
 
 </div>
 
-@include('partials._flash-message')
 </body>
 
 </html>

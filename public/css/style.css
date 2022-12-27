@@ -47,7 +47,6 @@ button, input[type="submit"], input[type="reset"] {
 
 ul, li {
     list-style-type: none;
-
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -1143,10 +1142,13 @@ nav {
 .article-header {
     color: rgb(55 65 81);
     margin-bottom: 1rem;
-    text-align: center;
     font-size: 3rem;
     line-height: 1.1;
     font-weight: 700;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .article-p {
@@ -1528,3 +1530,31 @@ nav {
 .flash-message span {
     font-weight: 500;
 }
+
+.conditions-text {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+.conditions-text p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.conditions-text a {
+    text-decoration: underline;
+    color: rgb(27, 0, 126);
+}
+
+.conditions-text ul, .conditions-text li {
+    list-style: disc inside;
+}
+
+

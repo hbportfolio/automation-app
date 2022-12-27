@@ -1,7 +1,10 @@
-<div style="
-padding: 30px;
-">
-    <h2><strong>Terms and Conditions</strong></h2>
+<x-text-layout>
+@section('title'){{'Terms & conditions'}}@endsection
+@section('slug'){{'conditions'}}@endsection
+@section('description'){{'This is the terms & conditions page for Vexely.com. If you have any questions, please reach out to us.'}}@endsection
+
+<div class="conditions-text">
+    <h1>Terms and Conditions</h1>
 
     <p>Welcome to Vexely!</p>
 
@@ -11,13 +14,13 @@ padding: 30px;
 
     <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Lithuania. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
 
-    <h3><strong>Cookies</strong></h3>
+    <h2>Cookies</h2>
 
     <p>We employ the use of cookies. By accessing Vexely, you agreed to use cookies in agreement with the Vexely's Privacy Policy. </p>
 
     <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
-    <h3><strong>License</strong></h3>
+    <h2>License</h2>
 
     <p>Unless otherwise stated, Vexely and/or its licensors own the intellectual property rights for all material on Vexely. All intellectual property rights are reserved. You may access this from Vexely for your own personal use subjected to restrictions set in these terms and conditions.</p>
 
@@ -44,7 +47,7 @@ padding: 30px;
 
     <p>You hereby grant Vexely a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
 
-    <h3><strong>Hyperlinking to our Content</strong></h3>
+    <h2>Hyperlinking to our Content</h2>
 
     <p>The following organizations may link to our Website without prior written approval:</p>
 
@@ -86,29 +89,29 @@ padding: 30px;
 
     <p>No use of Vexely's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
 
-    <h3><strong>iFrames</strong></h3>
+    <h2>iFrames</h2>
 
     <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
 
-    <h3><strong>Content Liability</strong></h3>
+    <h2>Content Liability</h2>
 
     <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
 
-    <h3><strong>Your Privacy</strong></h3>
+    <h2>Your Privacy</h2>
 
     <p>Please read <a href="/privacy">Privacy Policy</a></p>
 
-    <h3><strong>Reservation of Rights</strong></h3>
+    <h2>Reservation of Rights</h2>
 
     <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
 
-    <h3><strong>Removal of links from our website</strong></h3>
+    <h2>Removal of links from our website</h2>
 
     <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
 
     <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
 
-    <h3><strong>Disclaimer</strong></h3>
+    <h2>Disclaimer</h2>
 
     <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
 
@@ -122,4 +125,9 @@ padding: 30px;
     <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
 
     <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
+
+
+    <a href="/"><< Back</a>
+
 </div>
+</x-text-layout>

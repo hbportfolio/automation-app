@@ -1,10 +1,11 @@
 <x-article-layout>
-@section('title') {{$article->article_head}}@endsection
+@section('title'){{$article->article_head}}@endsection
 @section('meta'){{substr($article->article_body, 3, 160)}}@endsection
+@section('slug'){{$article->article_slug}}@endsection
 
 
 <script type="application/ld+json">
-    {
+{
     "@context": "https://schema.org",
     "@type": "Article",
     "name": "Vexely",
@@ -24,7 +25,7 @@
     },
     "datePublished": "{{$article->created_at}}",
     "dateModified": "{{$article->updated_at}}"
-    }
+}
 </script>
 
     <div>

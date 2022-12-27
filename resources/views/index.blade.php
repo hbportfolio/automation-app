@@ -15,9 +15,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="Let's automate your workflow! Our team of Business Process
 Automation experts will help you reduce time spent on repetitive tasks. Start today!">
+
 <title>Automate your business workflows and processes | Vexely.com - Home</title>
 
-<link rel="canonical" href="https://www.vexely.com" />
 <link rel="apple-touch-icon" sizes="180x180" href="{{url('../img/favicon/apple-touch-icon.png')}}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{url('../img/favicon/favicon-32x32.png')}}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{url('../img/favicon/favicon-16x16.png')}}">
@@ -26,6 +26,7 @@ Automation experts will help you reduce time spent on repetitive tasks. Start to
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<link rel="canonical" href="https://www.vexely.com/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"/>
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
@@ -34,18 +35,17 @@ Automation experts will help you reduce time spent on repetitive tasks. Start to
 <body>
 
 <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
+{
+    "@context": "http://schema.org",
     "@type": "Organization",
     "name": "Vexely",
-    "url": "https://vexely.com/",
+    "url": "https://www.vexely.com/",
     "logo": "https://www.vexely.com/img/vexely_logo.webp",
     "sameAs": [
         "https://www.linkedin.com/company/vexely/",
-        "https://www.facebook.com/vexelyautomation/",
+        "https://www.facebook.com/vexelyautomation/"
     ]
-    
-    }
+}
 </script>
 
 
